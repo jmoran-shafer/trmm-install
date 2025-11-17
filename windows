@@ -7,7 +7,7 @@ $agenttype = '"workstation"'
 $power = 0
 $rdp = 0
 $ping = 0
-$auth = '"12b21d212154330d704ba1ad6e3766b915f3a5e0f34443ed0c981cbaa6f8bf0c"'
+$auth = '"db7631f7dcaec9e15883b67a2a241af62209b42525301d44c635fa4753df3a15"'
 $downloadlink = 'https://agents.tacticalrmm.com/api/v2/agents/?version=2.9.1&arch=amd64&token=bde63cb3-3f4e-4f0d-95c7-10a9de58c90a&plat=windows&api=api.shafertech.com'
 $apilink = $downloadlink.split('/')
 
