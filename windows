@@ -1,5 +1,5 @@
 # author: https://github.com/bradhawkins85
-$innosetup = 'tacticalagent-v2.11.0-windows-amd64.exe'
+$innosetup = 'tacticalagent-v2.12.0-windows-amd64.exe'
 $api = '"https://api.shafertech.com"'
 $clientid = '17'
 $siteid = '54'
@@ -7,8 +7,8 @@ $agenttype = '"workstation"'
 $power = 0
 $rdp = 0
 $ping = 0
-$auth = '"9b34da57650d0dc802d874e38b2fa33224a20bd8eb86b38315f9adde4822b19b"'
-$downloadlink = 'https://agents.tacticalrmm.com/api/v2/agents/?version=2.11.0&arch=amd64&token=bde63cb3-3f4e-4f0d-95c7-10a9de58c90a&plat=windows&api=api.shafertech.com'
+$auth = '"566f70ed435e09ef0b9cf1bb56476071c5b63e0e7e1f4c6d489512648ed356bf"'
+$downloadlink = 'https://agents.tacticalrmm.com/api/v2/agents/?version=2.12.0&arch=amd64&token=bde63cb3-3f4e-4f0d-95c7-10a9de58c90a&plat=windows&api=api.shafertech.com'
 $apilink = $downloadlink.split('/')
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
